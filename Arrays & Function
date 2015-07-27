@@ -250,3 +250,104 @@ function BinarySearchRecursive(array, value, low, high) {
 }
 
 BinarySearchRecursive(arr,value, low, high);
+
+
+Problem 8 //A function that returns the last digit of given integer as an English word.
+function lastDigit(int) {
+ 
+ var a  =  (int).toString(10).split("");
+  
+  for (var i = 0; i<a.length; i++) {
+    
+    var b = a.length -1;
+    var lastNumber = (a[b]);
+  }
+
+
+
+  
+      if (lastNumber === 0) {
+    
+      console.log("Zero");
+      }
+  
+  else if (lastNumber == 1) {
+    
+     console.log("One");
+  }
+  
+   else if (lastNumber == 2) {
+    
+     console.log("Two");
+  }
+  
+   else if (lastNumber == 3) {
+    
+     console.log("Thre");
+  }
+  
+  
+  else if (lastNumber == 4) {
+    
+     console.log("Four");
+  }
+  
+ else if (lastNumber == 5) {
+    
+     console.log("Five");
+  }
+  
+  
+ else if (lastNumber == 6) {
+  console.log("Six");
+  }
+  
+ else if (lastNumber == 7) {
+  console.log("seven");
+  }
+  
+ else if (lastNumber == 8) {
+  console.log("eight");
+  } 
+  
+ else {
+  console.log("nine");
+    }   
+  
+   }
+  
+ 
+lastDigit(4444400013456);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
